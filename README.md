@@ -3,7 +3,8 @@
 * Author: Dave Coleman <davetcoleman@gmail.com>
 * License: GNU General Public License, version 3 (GPL-3.0)
 
-Example robots and code for interfacing Gazebo with ROS
+Forked from [gazebo_ros_demos](https://github.com/ros-simulation/gazebo_ros_demos).
+This simulation is meant to be a simplified verson of the original set of packages. The lidar, camera, and link3 are removed and the controller is effort based instead of position based.
 
 ## Tutorials
 
@@ -18,6 +19,8 @@ Default Entry:
 Example of Moving Joints:
 
     rostopic pub /rrbot/joint1_effort_controller/command std_msgs/Float64 "data: -2.0"
+
+![rviz_model](images/single_arm_screenshot.png)
 
 ## Develop and Contribute
 
