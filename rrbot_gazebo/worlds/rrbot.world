@@ -4,8 +4,9 @@
 
   <world name="default">
     <physics type="ode">
+      <!-- simulation_speed = max_step_size * real_time_update_rate -->
       <max_step_size>0.001</max_step_size>
-      <real_time_update_rate>0</real_time_update_rate>
+      <real_time_update_rate>3000</real_time_update_rate>
     </physics>
 
     <include>
