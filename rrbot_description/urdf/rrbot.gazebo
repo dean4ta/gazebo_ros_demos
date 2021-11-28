@@ -21,5 +21,11 @@
     <material>Gazebo/Black</material>
   </gazebo>
 
+  <!-- Link3 -->
+  <gazebo reference="link3">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Blue</material>
+  </gazebo>
   
 </robot>

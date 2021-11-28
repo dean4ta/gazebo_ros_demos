@@ -8,3 +8,6 @@ rrbot:
   joint1_effort_controller:
     type: effort_controllers/JointEffortController
     joint: joint1
+  joint2_effort_controller:
+    type: effort_controllers/JointEffortController
+    joint: joint2
